@@ -1,16 +1,12 @@
 'use strict';
 // дз 15
 
-const DomElement = {
-  selector: '',
-
-  height: '100 px',
-
-  width: '300 px',
-
-  bg: 'green',
-
-  fontSize: ' 16 px',
+const DomElement = function (selector, height, width, bg, fontSize) {
+  this.selector = selector;
+  this.height = height;
+  this.width = width;
+  this.bg = bg;
+  this.fontSize = fontSize;
 
   createElement() {},
 };
