@@ -15,10 +15,9 @@ const DomElement = function (selector, height, width, bg, fontSize) {
       //console.log(this.selector.slice(1));
       div.className = this.selector.slice(1);
       div.style.cssText = `height: ${this.height};
-    width: ${this.width};
-    background:  ${this.bg};
-    font-size: ${this.fontSize};
-  `;
+          width: ${this.width};
+          background:  ${this.bg};
+          font-size: ${this.fontSize};`;
       document.body.append(div);
     }
   };
